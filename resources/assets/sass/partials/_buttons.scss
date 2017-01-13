@@ -1,0 +1,35 @@
+a,
+.play,
+.mark-as-favorite,
+.mark-as-read,
+.mark-all-prev-read,
+.download,
+.podcast-action-list,
+.btn {
+    @include transitions();
+    cursor: pointer;
+}
+.btn-delete,
+.btn-delete:hover,
+.btn-delete:focus,
+.btn-delete:active {
+    border: none;
+    outline: 0 !important;
+    box-shadow: none;
+    background: $themeColor0;
+}
+.btn-add-podcast {
+    a {
+        color: inherit;
+        margin: -.5em 0 0 0;
+        @include transitionless();
+    }
+}
+
+@media(min-width: $desktop) {
+    .btn-add-podcast {
+        a {
+            margin: 1em 0 0 0;
+        }
+    }
+}

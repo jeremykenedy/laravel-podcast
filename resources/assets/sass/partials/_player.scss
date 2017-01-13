@@ -1,0 +1,44 @@
+#player-container {
+    display: none;
+
+    .close {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        font-size: 3em;
+        font-weight: 100;
+        color: $themeColor1;
+        text-shadow: 0 1px 0 $themeColor2;
+        opacity: .7;
+
+        &:hover {
+            opacity: .8;
+        }
+
+        &:active {
+            opacity: 1;
+        }
+    }
+}
+
+#player {
+    width: 100%;
+    padding: 0;
+    margin:0;
+}
+
+.alert-playing {
+    border: none;
+    color: $themeColor4;
+    background: rgba($themeColor2, .85);
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+
+    .now-playing {
+        text-align: center;
+    }
+
+}

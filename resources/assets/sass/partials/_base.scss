@@ -1,0 +1,47 @@
+body {
+    background: $body-bg;
+    color: $body-color;
+
+	.navbar-inverse {
+	    background-color: $themeColor9;
+	    border-color: $themeColor10;
+	}
+	.navbar-inverse .navbar-collapse,
+	.navbar-inverse .navbar-form {
+	    border-color: $themeColor10;
+	}
+	.navbar-inverse .navbar-brand,
+	.navbar-inverse .navbar-nav > li > a {
+	    border-color: $themeColor7;
+	    color: $themeColor7;
+	}
+	.navbar-inverse .navbar-toggle {
+	    border-color: $themeColor8;
+	}
+	.navbar-inverse .navbar-toggle:hover,
+	.navbar-inverse .navbar-toggle:active,
+	.navbar-inverse .navbar-toggle:focus {
+	  	background-color: $themeColor6;
+	}
+	.navbar-inverse .navbar-nav > li > a:hover {
+		color: themeColor1;
+		background-color: $themeColor2;
+	}
+	.navbar-inverse .navbar-nav > .active > a,
+	.navbar-inverse .navbar-nav > .active > a:hover,
+	.navbar-inverse .navbar-nav > .active > a:focus {
+	    color: themeColor1;
+	    background-color: $themeColor10;
+	}
+
+}
+
+.page-title + hr {
+    opacity: .5;
+}
+
+@media(max-width: $tablet - 1px) {
+    .navbar-form {
+        margin: 7px 0;
+    }
+}
