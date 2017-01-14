@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('template_title')
+  Search Results
+@endsection
+
 @section('content')
 
 	@if($items)

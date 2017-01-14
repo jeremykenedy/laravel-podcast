@@ -7731,6 +7731,46 @@ body .navbar-inverse .navbar-nav > .active > a:focus {
   background-color: #0a0a0a;
 }
 
+body.bg1 {
+  background: white;
+}
+
+body.bg2 {
+  background: #000000;
+}
+
+body.bg3 {
+  background: #212121;
+}
+
+body.bg4 {
+  background: #e6e6e6;
+}
+
+body.bg5 {
+  background: #404040;
+}
+
+body.bg6 {
+  background: #2b2b2b;
+}
+
+body.bg7 {
+  background: #666666;
+}
+
+body.bg8 {
+  background: #999999;
+}
+
+body.bg9 {
+  background: #0f0f0f;
+}
+
+body.bg10 {
+  background: #0a0a0a;
+}
+
 .page-title + hr {
   opacity: .5;
 }
@@ -7822,15 +7862,15 @@ a,
 .panel {
   background: #2b2b2b;
   border-color: #2b2b2b;
-  border: none;
   color: #e6e6e6;
+  border: none;
 }
 
 .panel.panel-default > .panel-heading {
-  background: #666666;
-  border-color: #666666;
-  border: none;
+  background: #404040;
+  border-color: #404040;
   color: #e6e6e6;
+  border: none;
 }
 
 .pagination > .disabled > a,

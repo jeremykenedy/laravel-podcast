@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('template_title')
+  Settings
+@endsection
+
 @section('content')
 	<div class="container container-podcast-settings">
 		<div class="row">

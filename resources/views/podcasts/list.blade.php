@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('template_title')
+  Listen
+@endsection
+
 @section('content')
   @if($podcast_items)
     @include('podcasts.player')

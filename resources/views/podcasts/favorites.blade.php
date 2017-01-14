@@ -1,5 +1,13 @@
 @extends('layouts.app')
 
+@section('template_title')
+  Favorites
+@endsection
+
+@section('template_body_classes')
+    bg6
+@endsection
+
 @section('content')
   @if($podcastItems)
     @include('podcasts.player')

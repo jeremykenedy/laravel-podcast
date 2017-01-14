@@ -1,15 +1,13 @@
 .panel {
-
     background: $themeColor6;
     border-color: $themeColor6;
-    border: none;
     color: $themeColor4;
+    border: none;
 
     &.panel-default > .panel-heading {
-        background: $themeColor7;
-        border-color: $themeColor7;
-        border: none;
+        background: $themeColor5;
+        border-color: $themeColor5;
         color: $themeColor4;
+        border: none;
     }
-
 }

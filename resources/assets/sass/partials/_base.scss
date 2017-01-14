@@ -34,11 +34,43 @@ body {
 	    background-color: $themeColor10;
 	}
 
+	&.bg1 {
+	    background: $themeColor1;
+	}
+	&.bg2 {
+	    background: $themeColor2;
+	}
+	&.bg3 {
+	    background: $themeColor3;
+	}
+	&.bg4 {
+	    background: $themeColor4;
+	}
+	&.bg5 {
+	    background: $themeColor5;
+	}
+	&.bg6 {
+	    background: $themeColor6;
+	}
+	&.bg7 {
+	    background: $themeColor7;
+	}
+	&.bg8 {
+	    background: $themeColor8;
+	}
+	&.bg9 {
+	    background: $themeColor9;
+	}
+	&.bg10 {
+	    background: $themeColor10;
+	}
+
 }
 
 .page-title + hr {
     opacity: .5;
 }
+
 
 @media(max-width: $tablet - 1px) {
     .navbar-form {

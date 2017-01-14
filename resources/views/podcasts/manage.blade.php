@@ -1,11 +1,14 @@
 @extends('layouts.app')
 
+@section('template_title')
+  Manage Podcasts
+@endsection
+
 @section('header-style')
-    <style type="text/css">
-        body {
-            background: #39393b;
-        }
-    </style>
+@endsection
+
+@section('template_body_classes')
+    bg5
 @endsection
 
 @section('content')
