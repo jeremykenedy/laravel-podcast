@@ -78,15 +78,15 @@ Built on Laravel 5.3, Bootstrap 3.6, and easily customizable with SASS. Change t
 
 ### Screenshots
 ![Home/Listen Page](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/1-home.jpg)
-![Manage Page](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/1-manage.jpg)
-![Favorites Page](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/1-favorites.jpg)
-![Search Results Page](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/1-search.jpg)
-![Login Page](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/1-login.jpg)
-![Register Page](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/1-register.jpg)
-![Mark as Read Modal](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/1-modal-read.jpg)
-![Mark All as Read Modal](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/1-modal-all-read.jpg)
-![Add RSS Feed Modal](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/1-modal-add.jpg)
-![Delete RSS Feed Modal](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/1-modal-delete.jpg)
+![Manage Page](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/2-manage.jpg)
+![Favorites Page](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/3-favorites.jpg)
+![Search Results Page](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/4-search.jpg)
+![Login Page](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/5-login.jpg)
+![Register Page](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/6-register.jpg)
+![Mark as Read Modal](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/7-modal-read.jpg)
+![Mark All as Read Modal](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/8-modal-all-read.jpg)
+![Add RSS Feed Modal](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/9-modal-add.jpg)
+![Delete RSS Feed Modal](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/10-modal-delete.jpg)
 
 ### Laravel Podcast License
 Podcastwala is licensed under the MIT license. Enjoy!
