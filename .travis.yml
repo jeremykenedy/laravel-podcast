@@ -19,7 +19,6 @@ before_script:
   - php artisan migrate:install --env=testing --no-interaction
   - composer dump-autoload
   - npm install -g gulp-cli
-  - npm install -g
   - npm install
   - gulp
   - sudo chgrp -R www-data storage bootstrap/cache
