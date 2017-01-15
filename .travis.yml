@@ -1,0 +1,23 @@
+language: php
+
+php:
+
+  - 5.6
+  - 7.0
+  - 7.1
+  - hhvm
+
+services:
+  - mysql
+
+before_script:
+  - cp .env.travis .env
+  - mysql -u root -e 'create database laravelPodcast;'
+  - composer self-update
+  - composer install --dev --prefer-source --no-interaction
+  - php artisan key:generate
+  - php artisan migrate
+  - composer dump-autoload
+  - php artisan db:seed
+
+script: vendor/bin/phpspec run
