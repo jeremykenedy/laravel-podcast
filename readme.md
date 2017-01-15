@@ -88,7 +88,7 @@ Built on Laravel 5.3, Bootstrap 3.6, and easily customizable with SASS. Change t
 ![Delete RSS Feed Modal](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-podcast/10-modal-delete.jpg)
 
 ### Laravel Podcast License
-Podcastwala is licensed under the MIT license. Enjoy!
+Laravel-Podcast is licensed under the MIT license. Enjoy!
 
 * Orignal Concepts from [Podcastwala Github Respository](https://github.com/modestkdr/Podcastwala)
 
