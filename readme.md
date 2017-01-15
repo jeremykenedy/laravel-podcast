@@ -38,9 +38,8 @@ Built on Laravel 5.3, Bootstrap 3.6, and easily customizable with SASS. Change t
 5. From the projects root folder run `sudo php artisan key:generate`
 6. From the projects root folder run `sudo php artisan migrate`
 7. From the projects root folder run `sudo composer dump-autoload`
-8. From the projects root folder run `sudo php artisan db:seed`
-9. From the projects root folder run `sudo chgrp -R www-data storage bootstrap/cache`
-10. From the projects root folder run `sudo chmod -R ug+rwx storage bootstrap/cache`
+8. From the projects root folder run `sudo chgrp -R www-data storage bootstrap/cache`
+9. From the projects root folder run `sudo chmod -R ug+rwx storage bootstrap/cache`
 
 ##### Rebuild Front End Assets (optional)
 1. From the projects root folder run `sudo npm install`

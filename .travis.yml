@@ -16,9 +16,8 @@ before_script:
   - composer self-update
   - composer install --dev --prefer-source --no-interaction
   - php artisan key:generate
-  - php artisan migrate:install --env=testing --no-interaction -vvv
+  - php artisan migrate:install --env=testing --no-interaction
   - composer dump-autoload
-  - php artisan db:seed
   - sudo npm install
   - sudo gulp
   - sudo chgrp -R www-data storage bootstrap/cache
