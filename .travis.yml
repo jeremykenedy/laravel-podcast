@@ -16,7 +16,5 @@ before_script:
   - composer self-update
   - composer install --dev --prefer-source --no-interaction
 
-  - composer dump-autoload
-  - php artisan db:seed
 
 script: vendor/bin/phpspec run
