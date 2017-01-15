@@ -59,11 +59,11 @@ return [
             'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'forge'),
             'password' => env('DB_PASSWORD', ''),
-            'charset'   => 'utf8mb4',
-            'collation' => 'utf8mb4_unicode_ci',
+            'charset' => env('DB_CHARSET', 'utf8mb4'),
+            'collation' => env('DB_COLLATION', 'utf8mb4_unicode_ci'),
             'prefix' => '',
             'strict' => true,
-            'engine' => 'InnoDB ROW_FORMAT=DYNAMIC',
+            'engine' => env('DB_ENGINE', 'InnoDB'),
         ],
 
         'pgsql' => [
