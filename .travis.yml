@@ -15,14 +15,10 @@ before_script:
   - mysql -u root -e 'create database laravelPodcast;'
   - composer self-update
   - composer install --dev --prefer-source --no-interaction
+
   - php artisan migrate:install --env=testing --no-interaction -vvv
   - composer dump-autoload
   - php artisan db:seed
-
-
-
-
-
 
 
 
