@@ -1,0 +1,36 @@
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+    background: $themeColor0;
+    border-color: $themeColor0;
+    opacity: .2;
+}
+.pagination>li>a,
+.pagination>li>span {
+    color: $themeColor1;
+    border: 1px solid $themeColor0;
+    background: $themeColor0;
+    padding: 3px 12px 4px;
+    font-size: 1.3em;
+}
+.pagination>li:first-child>a,
+.pagination>li:first-child>span,
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
+    @include vendor(border-radius, 0);
+}
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    z-index: 3;
+    color: $themeColor1;
+    background-color: rgba($themeColor2, .8);
+    border-color: rgba($themeColor2, .8);
+    cursor: default;
+}

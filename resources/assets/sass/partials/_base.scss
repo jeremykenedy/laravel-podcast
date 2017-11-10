@@ -1,0 +1,79 @@
+body {
+    background: $body-bg;
+    color: $body-color;
+
+	.navbar-inverse {
+	    background-color: $themeColor9;
+	    border-color: $themeColor10;
+	}
+	.navbar-inverse .navbar-collapse,
+	.navbar-inverse .navbar-form {
+	    border-color: $themeColor10;
+	}
+	.navbar-inverse .navbar-brand,
+	.navbar-inverse .navbar-nav > li > a {
+	    border-color: $themeColor7;
+	    color: $themeColor7;
+	}
+	.navbar-inverse .navbar-toggle {
+	    border-color: $themeColor8;
+	}
+	.navbar-inverse .navbar-toggle:hover,
+	.navbar-inverse .navbar-toggle:active,
+	.navbar-inverse .navbar-toggle:focus {
+	  	background-color: $themeColor6;
+	}
+	.navbar-inverse .navbar-nav > li > a:hover {
+		color: themeColor1;
+		background-color: $themeColor2;
+	}
+	.navbar-inverse .navbar-nav > .active > a,
+	.navbar-inverse .navbar-nav > .active > a:hover,
+	.navbar-inverse .navbar-nav > .active > a:focus {
+	    color: themeColor1;
+	    background-color: $themeColor10;
+	}
+
+	&.bg1 {
+	    background: $themeColor1;
+	}
+	&.bg2 {
+	    background: $themeColor2;
+	}
+	&.bg3 {
+	    background: $themeColor3;
+	}
+	&.bg4 {
+	    background: $themeColor4;
+	}
+	&.bg5 {
+	    background: $themeColor5;
+	}
+	&.bg6 {
+	    background: $themeColor6;
+	}
+	&.bg7 {
+	    background: $themeColor7;
+	}
+	&.bg8 {
+	    background: $themeColor8;
+	}
+	&.bg9 {
+	    background: $themeColor9;
+	}
+	&.bg10 {
+	    background: $themeColor10;
+	}
+
+}
+
+.page-title + hr {
+    opacity: .5;
+}
+
+
+@media(max-width: $tablet - 1px) {
+    .navbar-form {
+        margin: 7px 0;
+    }
+}

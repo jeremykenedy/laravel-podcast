@@ -1,0 +1,13 @@
+.panel {
+    background: $themeColor6;
+    border-color: $themeColor6;
+    color: $themeColor4;
+    border: none;
+
+    &.panel-default > .panel-heading {
+        background: $themeColor5;
+        border-color: $themeColor5;
+        color: $themeColor4;
+        border: none;
+    }
+}

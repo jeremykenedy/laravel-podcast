@@ -1,38 +1,62 @@
+// Colors
+
+//$baseThemeColor:			#2296f3;
+$baseThemeColor:			#000000;
+
+$themeColor0:               rgba($baseThemeColor, 0%);
+$themeColor1:               lighten($baseThemeColor, 100%);
+$themeColor2:               $baseThemeColor;
+$themeColor3:               lighten($baseThemeColor, 13%);
+$themeColor4:               lighten($baseThemeColor, 90%);
+$themeColor5:               lighten($baseThemeColor, 25%);
+$themeColor6:               lighten($baseThemeColor, 17%);
+$themeColor7:               lighten($baseThemeColor, 40%);
+$themeColor8:               lighten($baseThemeColor, 60%);
+$themeColor9:               lighten($baseThemeColor, 6%);
+$themeColor10:              lighten($baseThemeColor, 4%);
 
 // Body
-$body-bg: #f5f8fa;
+$body-bg: 					$themeColor3;
+$body-color: 				$themeColor4;
 
 // Borders
-$laravel-border-color: darken($body-bg, 10%);
-$list-group-border: $laravel-border-color;
-$navbar-default-border: $laravel-border-color;
-$panel-default-border: $laravel-border-color;
-$panel-inner-border: $laravel-border-color;
+$laravel-border-color: 		darken($body-bg, 10%);
+$list-group-border: 		$laravel-border-color;
+$navbar-default-border: 	$laravel-border-color;
+$panel-default-border: 		$laravel-border-color;
+$panel-inner-border: 		$laravel-border-color;
+$standardRadius:       		4px;
 
 // Brands
-$brand-primary: #3097D1;
-$brand-info: #8eb4cb;
-$brand-success: #2ab27b;
-$brand-warning: #cbb956;
-$brand-danger: #bf5329;
+$brand-primary: 			#3097D1;
+$brand-info: 				#8eb4cb;
+$brand-success: 			#2ab27b;
+$brand-warning: 			#cbb956;
+$brand-danger: 				#bf5329;
 
 // Typography
-$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
-$font-family-sans-serif: "Raleway", sans-serif;
-$font-size-base: 14px;
-$line-height-base: 1.6;
-$text-color: #636b6f;
+$font-family-sans-serif: 	"Raleway", sans-serif;
+$font-size-base: 			14px;
+$line-height-base: 			1.6;
+$text-color: 				#636b6f;
+
+// Breakpoints
+$tablet:              		768px;
+$desktop:              		992px;
+
+// Transitions
+$transition-speed:          0.15s;
 
 // Navbar
-$navbar-default-bg: #fff;
+$navbar-default-bg: 		$themeColor1;
 
 // Buttons
-$btn-default-color: $text-color;
+$btn-default-color: 		$text-color;
 
 // Inputs
-$input-border: lighten($text-color, 40%);
-$input-border-focus: lighten($brand-primary, 25%);
-$input-color-placeholder: lighten($text-color, 30%);
+$input-border: 				lighten($text-color, 40%);
+$input-border-focus: 		lighten($brand-primary, 25%);
+$input-color-placeholder: 	lighten($text-color, 30%);
 
 // Panels
-$panel-default-heading-bg: #fff;
+$panel-default-heading-bg: 	$themeColor1;

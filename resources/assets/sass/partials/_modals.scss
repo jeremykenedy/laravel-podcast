@@ -1,0 +1,35 @@
+.modal {
+    z-index: 9999;
+
+    .modal-header {
+        @include vendor(border-radius, $standardRadius $standardRadius 0 0);
+    }
+    .modal-body {
+        color: $themeColor3;
+    }
+    &.modal-primary .modal-header  {
+        color: $themeColor1;
+        border-bottom: 1px solid $brand-primary;
+        background-color: $brand-primary;
+    }
+    &.modal-warning .modal-header  {
+        color: $themeColor1;
+        border-bottom: 1px solid $brand-warning;
+        background-color: $brand-warning;
+    }
+    &.modal-info .modal-header  {
+        color: $themeColor1;
+        border-bottom: 1px solid $brand-info;
+        background-color: $brand-info;
+    }
+    &.modal-success .modal-header  {
+        color: $themeColor1;
+        border-bottom: 1px solid $brand-success;
+        background-color: $brand-success;
+    }
+    &.modal-danger .modal-header {
+        color: $themeColor1;
+        border-bottom: 1px solid $brand-danger;
+        background-color: $brand-danger;
+    }
+}
