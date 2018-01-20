@@ -1,6 +1,7 @@
 ### Laravel Podcast is Laravel 5.3 web app that enables you to manage RSS feeds for your favorite podcasts and listen to the episodes in a seamless UI and User Authentication.
 
-[![License](http://jeremykenedy.com/license-mit.svg)](https://raw.githubusercontent.com/jeremykenedy/laravel-material-design/master/LICENSE) [![Build Status](https://travis-ci.org/jeremykenedy/laravel-podcast.svg?branch=master)](https://travis-ci.org/jeremykenedy/laravel-podcast)
+[![Build Status](https://travis-ci.org/jeremykenedy/laravel-podcast.svg?branch=master)](https://travis-ci.org/jeremykenedy/laravel-podcast)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 #### READY FOR USE!
 
