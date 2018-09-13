@@ -1,34 +1,12 @@
-### OSX BOOGERS ###
-.DS_Store
-*._DS_Store
-._.DS_Store
-*._
-._*
-._.*
-
-### WINDOWS BOOGERS ###
-Thumbs.db
-
-### Sass ###
-#bower_components/*
-/.sass-cache/*
-.sass-cache
-
-### SUBLIMETEXT BOOGERS ###
-*.sublime-workspace
-
-### PHPSTORM BOOGERS ###
-.idea/*
-/.idea/*
-
-### DIFFERENT TYPE OF MASTER CONFIGS ###
-.env
-composer.lock
-
-### ASSET EXCLUSIONS ###
 /node_modules
+/public/hot
 /public/storage
 /storage/*.key
 /vendor
-Homestead.yaml
+/.idea
+/.vagrant
 Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
